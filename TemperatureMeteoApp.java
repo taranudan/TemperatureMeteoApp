@@ -36,7 +36,7 @@ class OpenMeteoProvider {
 			case 124 : return generateRandomDouble();
 			case 246 : return generateRandomDouble();
 			default : System.err.println("Can't provide data for this country!");
-				      return 0;					   
+				  return 0;					   
 		}
 	}
 	
